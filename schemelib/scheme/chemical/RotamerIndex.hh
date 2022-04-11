@@ -749,7 +749,7 @@ struct RotamerIndex {
 		sanity_check();
 	}
 
-	bool
+	void
 	sanity_check() const
 	{
 		using std::cerr;
