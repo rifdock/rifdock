@@ -3,7 +3,7 @@ set( ROSETTA_SRC $ENV{CMAKE_ROSETTA_PATH}/source )
 link_directories( ${ROSETTA_BIN} )
 
 set( ALL_ROSETTA_LIBS
-basic cifparse core.1 core.2 core.3 core.4 core.5 cppdb devel libxml2 numeric ObjexxFCL protocols.1 protocols.3 protocols.4 protocols.7 protocols.8 protocols_a.2 protocols_a.5 protocols_a.6 protocols_b.2 protocols_b.5 protocols_b.6 protocols_c.5 protocols_c.6 protocols_d.5 protocols_d.6 protocols_e.5 protocols_e.6 protocols_f.5 protocols_g.5 protocols_h.5 sqlite3 utility
+basic cifparse core.1 core.2 core.3 core.4 core.5 cppdb devel xml2 numeric ObjexxFCL protocols.1 protocols.3 protocols.4 protocols.7 protocols.8 protocols_a.2 protocols_a.5 protocols_a.6 protocols_b.2 protocols_b.5 protocols_b.6 protocols_c.5 protocols_c.6 protocols_d.5 protocols_d.6 protocols_e.5 protocols_e.6 protocols_f.5 protocols_g.5 protocols_h.5 sqlite3 utility
  
 #   basic core.1 core.2 core.3 core.4 core.5 devel numeric ObjexxFCL protocols.1 protocols.3 protocols.6 protocols.7 
 #   protocols_a.2 protocols_a.4 protocols_a.5 protocols_b.2 protocols_b.4 protocols_b.5 protocols_c.4 protocols_c.5 
